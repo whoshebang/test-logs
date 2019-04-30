@@ -9,7 +9,7 @@ appenders:
     kind: file
     path: "log/requests.log"
     encoder:
-      pattern: "{d} - {m}{n}"
+        pattern: "{d(%Y-%m-%d - %H:%M:%S)} | {({l} - {m}):50.50} | {M} - {T} - {L}{n}"
 # Set the default logging level to "warn" and attach the "stdout" appender to the root
 root:
   level: trace
