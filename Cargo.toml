@@ -1,0 +1,9 @@
+[package]
+name = "test-logs"
+version = "0.1.0"
+authors = ["kaikai1024 <kaikaifeng1024@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4.6"
+log4rs = "0.8.3"
